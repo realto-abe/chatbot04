@@ -1,0 +1,44 @@
+version: '3.0'
+services:
+
+# # builing 
+  # chat-server-primary-0x7:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   container_name: chat-server-primary-0x7
+  #   volumes:
+  #     - .:/apps
+  #   ports:
+  #     - 5005:5005
+  #   command: rasa run -m models --enable-api --cors “*” --debug
+
+  # action-server-secondary-0x1:
+  #   build:
+  #     context: .
+  #     dockerfile: actions/Dockerfile
+  #   container_name: action-server-secondary-0x1
+  #   volumes:
+  #     - .:/apps
+  #   ports:
+  #     - 5055:5055
+  #   command: rasa run actions
+
+
+# deployment
+
+
+  chat-server-prim-07:
+    image: realtochat0x4-chat-server-primary-0x7
+    volumes:
+      - .:/apps
+    ports:
+      - 5005:5005
+    command: rasa run -m models --enable-api --cors='*' --debug
+  action-server-sec-01:
+    image: realtochat0x4-action-server-secondary-0x1
+    volumes:
+      - .:/apps
+    ports:
+      - 5055:5055
+    command: rasa run actions

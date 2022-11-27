@@ -1,0 +1,481 @@
+version: '3.1'
+intents:
+- affirm
+- bot_challenge
+- chitchat
+- deny
+- faq_01
+- faq_02
+- faq_03
+- faq_04
+- faq_05
+- faq_06
+- faq_07
+- faq_08
+- faq_09
+- faq_10
+- faq_11
+- faq_12
+- faq_13
+- faq_14
+- faq_15
+- faq_16
+- faq_17
+- faq_18
+- faq_19
+- faq_20
+- faq_21
+- faq_22
+- faq_23
+- faq_24
+- faq_25
+- faq_26
+- faq_27
+- faq_28
+- faq_29
+- faq_30
+- faq_31
+- faq_32
+- faq_33
+- faq_33_01
+- faq_33_02
+- faq_34
+- faq_35
+- faq_36
+- faq_37
+- faq_38
+- faq_39
+- faq_39_01
+- faq_39_02
+- faq_40
+- faq_41
+- faq_42
+- faq_43
+- faq_44
+- faq_45
+- faq_46
+- faq_47
+- faq_48
+- faq_49
+- faq_50
+- faq_51
+- faq_52
+- faq_53
+- faq_54
+- faq_55
+- faq_56
+- faq_57
+- faq_58
+- faq_59
+- faq_60
+- faq_61
+- faq_62
+- faq_62_01
+- faq_62_02
+- faq_62_03
+- faq_62_04
+- faq_63
+- faq_64
+- faq_64_01
+- faq_64_02
+- faq_64_03
+- faq_65
+- faq_66
+- faq_67
+- faq_68
+- faq_69
+- faq_70
+- faq_71
+- faq_72
+- faq_73
+- faq_74
+- faq_75
+- faq_76
+- faq_77
+- faq_78
+- faq_79
+- faq_80
+- faq_81
+- faq_82
+- faq_82_01
+- faq_82_02
+- faq_82_03
+- faq_82_04
+- faq_82_05
+- get_asset
+- get_portfolio
+- get_wallet_balance
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+- nlu_fallback
+- sub_01
+- sub_01_opt
+- todo.00
+- todo.01
+- todo_form
+- tutorial_how_invest
+- tutorial_invest
+- tutorial_onboarding
+- tutorial_onboarding_SAcc
+- tutorial_onboarding_kyc
+- tutorial_view_deals
+- tutorial_view_transaction
+- tutorial_where_invest
+- wallet_info
+- carasole_test01
+
+
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_faq_01:
+  - text: Investors will receive audited annual financial statements of the MartelInvest 1 LLC and the MartelInvest Tokens, as well as unaudited monthly reports.
+  utter_faq_02:
+  - text: You are investing in the assets owned and operated by the MartelInvest 1 LLC (the “Company”) by becoming a member of the Company.
+  utter_faq_03:
+  - text: A whitelist is a list of people or items that are granted access to a certain system or protocol. When a whitelist is used, all entities are denied access, except those included in the whitelist.
+  utter_faq_04:
+  - text: Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. Smart contracts permit trusted transactions and agreements to be carried out among disparate, anonymous parties without the need for a central authority, legal system, or external enforcement mechanism. They render transactions traceable, transparent, and irreversible.
+  utter_faq_05:
+  - text: Security tokens replace paper certificates with digital tokens on the blockchain. Security tokens enable liquidity, trading scale, and new financing models that benefit both the investor and the issuer. For the last 1,000 years ownership of most assets were managed by all parties to each transaction signing paper certificates. With tokenized securities there is one document that defines the rights of token holders, the tokens themselves are a proxy to that master document, and they can trade just like cryptocurrencies, within regulations.
+  utter_faq_06:
+  - text: When you participate in MartelInvest STO, you will receive your limited liability company units in the form of Digital Tokens, also known as Asset-Backed Security Tokens. One digital token represents one limited liability company unit at a current value of $50 per token.
+  utter_faq_07:
+  - text: The Company currently intends to distribute net profits of the Company on a quarterly basis in the form of USDC/USDT, but may distribute net profits in a fiat currency in its discretion. The distribution schedule is subject to change and there is no guarantee that the Company will achieve profitability or distribute profits with any certain frequency.
+  utter_faq_08:
+  - text: Initial Token holders must be “Accredited Investors” as defined in Rule 501(a) of Regulation D promulgated under the Securities Act
+  utter_faq_09:
+  - text: A security token represents traditional, private security interest. It could represent a share in a company, an LP interest in a fund or a trust, or a member unit in an LLC. Essentially, you're taking something that you have on paper today and you're putting an electronic wrapper around it.
+  utter_faq_10:
+  - text: Although the Company anticipates making efforts to list the Tokens for trading on secondary markets, there is no guarantee that the Tokens will be tradeable in any secondary market and an investment therein should be considered only as long-term investment.
+  utter_faq_11:
+  - text: The assets of the Company will generally be valued as of each year end, when required by the Operating Agreement, or whenever the Company believes valuation and appraisal are appropriate.
+  utter_faq_12:
+  - text: Investors must purchase a minimum of $50 of MartelInvest Tokens to participate.
+  utter_faq_13:
+  - text: Investors may go to MarteInvest.com for the on-boarding process to purchase MartelInvest Tokens. Prospective investors must also indicate and provide information supporting their accreditation status and complete anti-money laundering and know-your-customer processes.
+  utter_faq_14:
+  - text: You can keep MartelInvest Tokens in any wallet that supports ERC-20 tokens.
+  utter_faq_15:
+  - text: Tokenization is the process of breaking up the ownership of an asset into smaller pieces. Each piece of the asset is represented by a digital token. The token ownership and other details are encoded into the blockchain for security. We are taking this process and applying it to the real estate space
+  utter_faq_16:
+  - text: 'RealTo/Martel  reserved space for proper answer based on realto policies and stuff '
+  utter_faq_17:
+  - text: 'RealTo/Martel  is a nft real estate exchanging platform '
+  utter_faq_18:
+  - text: We earn our money by seeking out distressed properties in economically viable markets across the U.S. We fully rehab those properties, put a property manager and tenant in place and then sell at a profit as turnkey rentals to real estate investors. There are no hidden fees or charges.
+  utter_faq_19:
+  - text: https://martelturnkey.com/wp-content/uploads/2018/03/how-buy-rental-key.png
+  utter_faq_20:
+  - text: Yes you can. However, most of the turnkey rentals that we have available already have tenants in place and we do not like to disturb the tenants.
+  utter_faq_21:
+  - text: Yes, all of our turnkey rentals are sold with tenants in place. Even though the houses on the website may show as vacant, we will get them occupied before closing.
+  utter_faq_22:
+  - text: We have lenders lined up ready to finance the purchases of your turnkey rental properties. Whether you will be using conventional financing or buying through your retirement account, we have lenders ready to go. You are free to use your own lender as well; however, we highly recommend using our lender as they already know our product, process, and neighborhoods.
+  utter_faq_23:
+  - text: "There are many alternative ways to finance turnkey rental property purchases. A thorough discussion of this topic can be found here.\thttps://martelturnkey.com/how-to-finance-rental-properties-without-w2-income/"
+  utter_faq_24:
+  - text: Our goal for you is to buy our turnkey rentals with tenants in place, which means the cash flow begins to come in from day one!
+  utter_faq_25:
+  - text: A full discussion of turnkey rental insurance recommendations can be found here.
+  utter_faq_26:
+  - text: Natural disasters would be handled through your rental property insurance company, just the same as your primary residence.
+  utter_faq_27:
+  - text: MartelTurnkey does not provide direct property management services. However, we do have a property management team in place for every turnkey rental property we own and sell. When you buy from us, you’ll have the same property manager that we use for our own properties. If you wish to use someone else, you’re always free to do so.
+  utter_faq_28:
+  - text: You can contact the property management company about a property you have under contract. Just let us know and we will furnish the contact information.
+  utter_faq_29:
+  - text: The property managers we use charge 10% of collected rents. If a new tenant is signing a lease then the property manager takes 1st months rent as a fee. If a tenant is renewing a lease then the property management company will charge a nominal fee of $100-300.
+  utter_faq_30:
+  - text: The property manager will advise you in this situation and act on your behalf to collect late fees and/or engage in court proceedings for eviction. All of the states that we invest in are landlord friendly states, which makes these processes inexpensive and effective.
+  utter_faq_31:
+  - text: After the property management company receives the maintenance request from the tenant, they will arrange for repairs to be completed.
+  utter_faq_32:
+  - text: Yes. We own all the properties you see listed.
+  utter_faq_33:
+  - text: Investors can benefit from returns in two ways
+    buttons:
+    - payload: /faq_33_01
+      title: Distributions
+    - payload: /faq_33_02
+      text: Capital Appreciation
+  utter_faq_33_01:
+  - text: The annual yield generated from rental income can range between 8-10%, which are typically distributed on a monthly basis to all investors
+  utter_faq_33_02:
+  - text: Any appreciation in the underlying property accrues to investors and is realized at the time of sale"
+  utter_faq_34:
+  - text: Investment risk can be reduced with appropriate diversification of holdings. Investors can diversify by investing across locations, tenants (technology, financial services) and asset classes (retail, office, warehousing). Please speak to your investment advisor for more details.
+  utter_faq_35:
+  - text: Once you are registered on the platform, you will receive notifications on new listings, resales, funding updates etc.
+  utter_faq_36:
+  - text: The Sale Deed in conjunction with the certificates for the securities you subscribe to from the SPV constitute proof of your investment. You will receive a certificate for the securities that you subscribe to from the SPV.
+  utter_faq_37:
+  - text: As a shareholder in the SPV, your liability is always limited to invested capital.
+  utter_faq_38:
+  - text: Investors decide the exact time and price at which to sell their investment.
+  utter_faq_39:
+  - text: You can exit your investment in two ways
+    buttons:
+    - payload: /faq_39_01
+      text: Resale of your ownership share
+    - payload: /faq_39_02
+      text: Sale of property
+  utter_faq_39_01:
+  - text: You can choose to sell your shares to anyone at a mutually agreed price either privately or through the PropShare platform.
+  utter_faq_39_02:
+  - text: If a sale is mandated and authorized by all the shareholders of the SPV, the property manager will sell the property and you will receive your share from the sale proceeds.
+  utter_faq_40:
+  - text: You will own securities of an SPV which owns the property you have selected to invest in.
+  utter_faq_41:
+  - text: Yes. We share all the details before property registration.
+  utter_faq_42:
+  - text: Yes, as with any real estate investment, investment through Realto carries inherent risks of loss of capital. Please read through our Disclosure Document to understand the risks in detail.
+  utter_faq_43:
+  - text: Under Indian income-tax law, an NRI is required to pay tax on any Indian sourced or received income. This will include interest income on the debentures and capital gains on sale of shares and debentures. A basic exemption limit is provided under the Indian tax law. If the income in India does not exceed the basic exemption limit, the NRI will not have to pay tax in India. If the income in India exceeds basic exemption limit, the NRI will have to pay taxes in India as per the applicable slab rates. *NRI investor can explore benefits under Double Taxation Avoidance Agreement (“DTAA”) entered with the respective country, subject to availability of Tax residency Certificate (“TRC”).
+  utter_faq_44:
+  - text: Yes, you can transfer the investment from your NRE or NRO account.
+  utter_faq_45:
+  - text: No, RBI and FEMA guidelines do not allow NRIs to purchase securities with foreign currency. Your transfer must only be in INR.
+  utter_faq_46:
+  - text: NRE is a freely repatriable account, INR deposits cannot be made into an NRE account. The rents and sale proceeds will be transferred to your NRO account from where you can transfer it to your NRE account. Please speak to your banker for a more detailed understanding of your specific requirements.
+  utter_faq_47:
+  - text: Even if an NRI's income in India does not exceed the basic exemption limit, taxes may be withheld on interest and capital gains. Such an NRI can claim refund of taxes withheld by filing a tax return in India.
+  utter_faq_48:
+  - text: A TRC is a Tax Residency Certificate provided by the country where you are currently residing. India has a Double Tax Avoidance Agreement (DTAA) with almost all major countries that reduce TDS to lower thresholds of 10-15% (depending on the provisions of the DTAA). However, the benefit of the reduced tax rate is only available to investors who are able to produce a TRC. Please speak to your investment advisor on how you can procure a TRC for your country of residence.
+  utter_faq_50:
+  - text: Fractional ownership in real estate is a term used to describe when a number of investors join together to invest in a real estate asset so that all of them can benefit from a share of the income that the asset generates, and any appreciation in the value of the property.
+  utter_faq_52:
+  - text: Absolutely! You can invest in as many properties as you like and build a diversified portfolio across various opportunities and locations.
+  utter_faq_53:
+  - text: All legal due diligence is taken care of by us on your behalf and there is no need to engage with an attorney or lawyer. If you do wish to engage a legal resource, we will be happy to answer any questions they may have.
+  utter_faq_54:
+  - text: We take the security of our platform and privacy of all your data extremely seriously. Therefore, we have built a system with best-in-class security and privacy features. All your data is hosted on secure cloud networks and all sensitive client data is encrypted and stored with 256 bit SHA encryption. Also, we will never share your data with any third party. For more details, please refer to our privacy policy.
+  utter_faq_55:
+  - text: In a REIT or a Real Estate fund, the investor do not have exposure to directly owning a real estate property. The investor invests in a fund that has fund managers who decide how the capital is deployed and managed.On the other hand, Realto is a platform that connects you directly with investment opportunities in commercial real estate, allowing you to invest and own fractional ownership in properties of your choice and reap it's yield and capital appreciation over time.
+  utter_faq_56:
+  - text: A fractional-investing platform gives it's investors direct access to a range of real estate investments across the country, whereas in a traditional real estate model, the high capital requirement limits one's investment appetite and creates a large concentration of risk.
+  utter_faq_58:
+  - text: Your investment is completed as soon as the property is fully funded by other co-investors. We have a time frame of 60 days in which to ensure that the property receives complete funding.
+  utter_faq_59:
+  - text: Rental yeild and interest on the security deposit are transferred to your bank account on or before the 10th day of each month.
+  utter_faq_60:
+  - text: Yes. We deduct a 10% TDS before remitting returns to you on a monthly basis.
+  utter_faq_61:
+  - text: Properties will have an investment lifespan of 3-5 years to allow for the asset to appreciate. While an early exit is possible through our liquidity options, this could adversely affect the total return on your investment.Investors can choose to sell investments (after an initial 6 month lock-in period) through our Resale Market
+  utter_faq_62:
+  - text: Once the initial 6-month lock-in period is complete, you can exit your investment in four different ways.""
+    buttons:
+    - payload: /utter_faq_62_01
+      title: Private Sale
+    - payload: /utter_faq_62_02
+      title: Resale Market
+    - payload: /utter_faq_62_03
+      title: Dedicated Resale Window
+    - payload: /utter_faq_62_04
+      title: Asset Sale
+  utter_faq_62_01:
+  - text: You are free to sell your fraction/holding to anyone you may know, such as friends or family. You only need to inform us so that we can update our records and help you with the share transfer. While Strata provides an NAV (Net Asset Value), you can choose to sell at any price you wish.
+  utter_faq_62_02:
+  - text: Using your online dashboard, you can list your fraction/holding on Strata's resale market at Strata's recommended NAV. Once a new investor has acquired your fraction, you will be credited your gains (post any taxes and fees) on your registered bank account.
+  utter_faq_62_03:
+  - text: Strata will open an annual resale window during which investors can put up their fraction/holding for sale at a discount. During this period no new investments are offered on our platform and hence focus is solely on the resale platform. Once a new investor has acquired your fraction, you will be credited your gains (post any taxes and fees) on your registered bank account.
+  utter_faq_62_04:
+  - text: Once an investment is 3 years old, Strata will hold an annual online poll among shareholders to decide if the asset is to be liquidated or held. If atleast 75% of the shareholders vote to sell, we will begin the process of liquidation. Once the asset is sold, you will be credited your gains (post any taxes and fees) on your registered bank account. If shareholders vote to hold, the investment will continue as is, until the next annual poll where the process will be repeated.
+  # utter_faq_63:
+  # - text: You'll own Equity Shares and Debentures of the SPV which owns the property. These will be in demat form.
+  utter_faq_64:
+  - text: As per the current income tax regulations, your returns will be taxed in exactly the same manner as if you had purchased the property on your own. You will be paying two kinds of taxes
+    buttons:
+    - payload: /faq_64_01
+      title: Rents
+    - payload: /faq_64_02
+      title: Capital Gains
+  utter_faq_64_01:
+  - text: Rents received from the property is distributed as interest on debentures which is taxable directly in the hands of the investors (post 10% withholding tax which can be claimed by the investor at the end of the year).
+  utter_faq_64_02:
+  - text: The profit on sale of commercial property is considered as capital gains. The same shall be long-term, if the property was held for more than 24 months and will be taxed at 20%, irrespective of the quantum of gains.
+  utter_faq_64_03:
+  - text: However, if the property was sold before 24 months had passed, the same becomes taxable as short-term capital gains and is taxed as normal income. Please consult your financial advisor for more details."
+  utter_faq_65:
+  - text: You can view the performance of your investment through our online dashboard. Please note that the Net Asset Value (NAV) of the property will be updated on a half yearly basis.
+  utter_faq_66:
+  - text: The Management fee covers the costs for collection of rents, payouts to investors, TDS filing, GST filing, facilitating property tax payments, compliances of the SPV, sending monthly MIS of the SPV and insurance.
+  utter_faq_67:
+  - text: Any unforeseen expenses that arise in the property are met using the contingency reserve. If the reserves are not used, they are refunded back to the investors at the time of sale.
+  utter_faq_69:
+  - text: In addition to one's own primary residence, investors typically hold a portfolio of stocks and bonds. Many studies have shown that adding commercial real estate adds diversification benefits. Historically US commercial real estate returns have offered similar returns to stocks but with less volatility. More importantly, they exhibit low correlation to the US stock and bond markets and have proven to be an effective inflation hedge.
+  utter_faq_70:
+  - text: Publicly traded REITs typically focus on a single commercial property type and have diverse exposures across geographies and markets, some of which may not be favorable depending on the economic environment. Moreover, as a REIT investor you are beholden to the decisions of the company’s senior management in terms of the properties they choose to invest in or dispose of. By investing in direct CRE, you can select the property type(s) and exact locations that you feel will perform the best. Also, you have full control, subject to any holding period requirements, of when you would like to liquidate your token investment.
+  utter_faq_71:
+  - text: CRE focuses exclusively on Class A and Class B commercial real estate. Class A represents the highest quality buildings in the market. They are typically attractive quality, good locations, well built, have good amenities, good access and are professionally managed. As a result, they attract the highest quality tenants and command highest rents. Class B is one notch down. Class B buildings are generally a little older but still have good quality management and tenants and are well maintained. Often value-add investors target these properties as they can be upgraded to Class A -through renovations and operational improvements.
+  utter_faq_72:
+  - text: Through the application of tokenization, we can streamline and compress the time it takes for real estate sponsors to raise equity capital for their projects. A fundraising process that typically takes many months to complete and requires many intermediaries and tedious paperwork can be shortened into weeks at lower cost. Also, RedSwan CRE's Accredited investor orientation means that real estate sponsors can be assured that they are attracting capital from a high-quality investor base looking to diversify their assets.
+  utter_faq_73:
+  - text: Equity Investment opportunities offered on RedSwan CRE are diverse and include new construction, stabilized assets as well as value-add projects. Value-add investments typically involve a real estate sponsor buying an underperforming property and applying capital improvements, and operational and marketing know-how to improve occupancy and rental rates. Returns from value-add opportunities come from both income and price appreciation when the improved property is later sold. For new construction, returns are derived somewhat from income as the property starts generating cash flow in later years but much more so from price appreciation when the property is sold.
+  utter_faq_74:
+  - text: While CRE may provide ongoing advice to the project sponsor, ultimately it is the project sponsor who is responsible for managing the properties that back the tokens issued by CRE.
+  utter_faq_75:
+  - text: This refers to the projected length of the investment period during which the equity holder will receive income and realize a return on the initial investment. During the investment period, equity investors receive as income any residual cash flow left over after expenses, capital improvement spending, and debt service payments are made. The end of the investment period is typically when an exit is planned, and the sponsor sells the property and pays off any outstanding debt. The amount left over is then shared by the equity holders.
+  utter_faq_76:
+  - text: IRR stands for “Internal Rate of Return”. Once you invest in a property as an equity holder, the total return you receive corresponds to the residual cash flow left over after expenses, capital improvement spending, and debt service payments are made and then a final payment at the end of the investment period when the property is sold, and debt holders are paid off. IRR is the common way to express this total return and is reported as a percentage. You can think of it as an annual return on investment. Mechanically, the IRR is calculated as the discount rate that would make the projected cash flows to the investors over the target investment period equivalent to the initial investment made.
+  utter_faq_77:
+  - text: Another metric to help investors think of the potential return to a real estate deal. A targeted equity multiple of 2.0x, for example, simply means that over the investment period, the sponsor is looking to return $2 to the investor for every $1 invested. Note that unlike IRR, this metric does not directly incorporate the time value of money.
+  utter_faq_78:
+  - text: The average expected annual income to the equity holder divided by the initial investment. A targeted cash yield of 8% means that for every $1 equity invested, the sponsor is targeting an annual payout of 8 cents. Note that this calculation does not include the potential final payment that would occur when the property is sold at the end of the investment period.
+  utter_faq_79:
+  - text: Net Operating Income (“NOI”) is a common financial metric when analyzing a property’s financials. It is essentially the revenues of a property less property taxes, insurance, utilities, property management fee, sales/marketing/administrative expenses, and additions to property reserves. NOI divided by revenues is the property’s profit margin.
+  utter_faq_80:
+  - text: In most investment opportunities, the end of the target investment period assumes an exit event in which the sponsor sells the property. To project the sales value of the property at the end of the investment period, the sponsor assumes that by then the property is stabilized, i.e., the property achieves a stable level of NOI in all future years after the disposition. In this case, the projected value of the property is simply the expected stable annual NOI divided by a discount rate, which is referred to as an “exit cap rate”. For example, if the projected stabilized NOI is $1,000,000 and the sponsor believes that s/he can sell the property at an exit cap rate of 5%, the sponsor therefore believes that the building can be sold for at least $20,000,000 (=$1,000,000/.05) at the conclusion of the investment period.
+  utter_faq_81:
+  - text: Yes, entities such as Corporations, Trusts, Partnerships and LLCs can also invest in RedSwan CRE Investment opportunities.
+  utter_faq_82:
+  - text: The traditional securities lifecycle is very inefficient, which limits scale, cuts into profit, and constrains product offerings for banks, broker-dealers, asset managers, issuers and investors alike.Digitizing securities on the blockchain can bring benefits including
+    buttons:
+    - payload: /faq_82_01 Increased efficiency
+      title: Increased efficiency
+    - payload: /faq_82_02
+      title: Reduced compliance cost
+    - payload: /faq_82_03
+      title: Improved liquidity
+    - payload: /faq_82_04
+      title: Increased transparency
+    - payload: /faq_82_05
+      title: Facilitated innovation
+  utter_faq_82_01:
+  - text: Blockchain can reduce costs associated with bond issuance by almost 90% and can significantly reduce costs associated with other processes (i.e. corporate actions, reconciliation) through automation and transparent record keeping.
+  utter_faq_82_02:
+  - text: The financial industry spends $181b per year on compliance and this is expected to increase as rules grow in scope and complexity. On blockchain, rules are programmed directly into the security token, which reduces the risk of error -and makes it 30-50% cheaper to manage complex compliance requirements.
+  utter_faq_82_03:
+  - text: There is $4 trillion locked in private equity and trillions in real estate. By removing administrative and technological roadblocks, tokenization opens assets up to a global investor pool, provides a way to trade previously illiquid assets, and stands to narrow the 20-30% illiquidity discount currently levied against private companies.
+  utter_faq_82_04:
+  - text: Security tokens give issuers, investors, and agents access to the same source of truth, which helps the cap table stay up-to-date and reduces disputes around record keeping.
+  utter_faq_82_05:
+  - text: Outdated financial infrastructure and manual processing requirements limit the type, scale, and availability of product and service offerings. Programmable smart contracts and a shared ledger open the door to fractionalized real estate, liquid revenue share agreements, dynamic ETFs, and other previously unmanageable offerings."
+  utter_todo00:
+  - text: Are you sure you want to confirm your purchase
+  utter_todo01:
+  - text: insert -> fresh list of deals pulled from db
+  utter_wallet_balance:
+  - text: 'Your wallet currently holds {0}$ '
+    channel: addons.websocket_channel
+  utter_todo_form:
+  - text: 'something worked '
+  utter_sub01:
+  - text: Non-fungible tokens (NFTs) are cryptographic assets on a blockchain with unique identification codes and metadata that distinguish them from each other.
+  utter_sub01_opt:
+  - text: There are two types of tokens
+    buttons:
+    - payload: /utter_sub01
+      title: NFT token
+    - payload: /faq_09
+      title: Security token
+    - payload: /faq_08
+      title: initial token
+  utter_invest_options:
+  - text: Would you like to know
+    buttons:
+    - payload: /tutorial_where_invest
+      title: where to find investsments
+    - payload: /tutorial_how_invest
+      title: how to invest
+  utter_where_invest:
+  - text: Here are the Market place link - url
+  utter_how_invest_01:
+  - text: 'Step 1 : Go to details of the Asset you have chosen'
+  utter_how_invest_02:
+  - text: 'Step 2 : Go to terms and details'
+  utter_how_invest_03:
+  - text: 'Step 3 : Go to Signed documents'
+  utter_how_invest_04:
+  - text: 'Step 4 : Go to Payment (Check browser details chrome/safari)'
+  utter_view_transaction_01:
+  - text: 'Step 1 : Go to Deals'
+  utter_view_transaction_02:
+  - text: 'Step 2 : Go to Doc Vault'
+  utter_tutorial_onboarding:
+  - text: would you like onboarding for KYC or Self Acredation
+  utter_tutorial_onboarding_kyc:
+  - text: Please follow the steps on this url - KYC
+  utter_tutorial_onboarding_SAcc:
+  - text: Please follow the steps on this url - Self Acc site
+  utter_wallet_info:
+  - text: wallet is a digital way to maintain a liquid state of money for transactiona and investment usage
+    buttons:
+    - payload: /get_wallet_balance
+      title: check wallet balance
+
+entity:
+- asset_name
+- ammount
+- page_name
+- asset_class
+
+slots:
+  confirm_action:
+    type: bool
+    mappings:
+    - type: from_intent
+      intent: affirm
+      value: true
+    - type: from_intent
+      intent: deny
+      value: false
+  asset_class:
+    type: categorical
+    values:
+    - deals
+    - transaction
+    - investment
+    mappings:
+    - type: from_entity
+      entity: asset_class
+  asset_name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: asset_name
+  ammount:
+    type: any
+    mappings:
+    - type: from_entity
+      entity: ammount
+  nav_to_page:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: page_name
+  query_at_page:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: page_name
+forms:
+  query_form:
+    required_slots:
+    - asset_name
+    - ammount
+    - confirm_action
+actions:
+- action_get_asset
+- action_get_portfolio
+- action_get_wallet_balance
+- action_hello_world
+- action_carousels
+- utter_faq_05
+- utter_sub01_opt
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
